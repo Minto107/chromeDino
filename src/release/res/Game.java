@@ -38,7 +38,7 @@ public class Game extends JPanel implements KeyListener, Runnable {
         welcomeMessage = false;
         cactus = new Cactus();
         cactus1 = new Cactus1();
-        hs = new HighScore(".\\high.score");
+        hs = new HighScore(".\\highScore.txt");
         setSize(Width, Height);
         setVisible(true);
     }
